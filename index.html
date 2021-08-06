@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>All Things Finance</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="main.js"></script>
+</head>
+<body>
+   <div id="navi_div">
+   <div id="atf">All Things Finance</div>
+   <div id="right_div">
+       <a id="home" href="/index.html">Home</a>
+       <a id="resources" href="resources/index.html">Resources</a>
+       <div id="contact">Contact</div>
+   </div>
+   </div>
+   <div id="main_content">
+   <div id="budget_rule">
+      <p class="title">50/30/20 Rule Calculator</p>
+      <div>Salary: <input type="number" id="salary" value=""></div>
+      <button onclick="calculateBudget()">Calculate</button>
+      <div id="fifty">Needs:</div>
+      <div id="thirty">Wants:</div>
+      <div id="twenty">Savings/Investments:</div>
+   </div>
+   <div id="mortgage">
+      <p class="title">Mortgage Calculator</p>
+      <div>Price of House: <input type="number" id="price" value=""></div>
+      <div>Annual Interest (Percent): <input type="number" id="interest" value=""></div>
+      <div>Time (Years): <input type="number" id="time" value=""></div>
+      <button onclick="calculateMortgage()">Calculate</button>
+      <div id="ypayment">Annual Payment:</div>
+      <div id="mpayment">Monthly Payment:</div>
+   </div>
+   </div>
+</body>
+</html>

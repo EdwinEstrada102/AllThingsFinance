@@ -1,0 +1,54 @@
+body{
+   background-color:grey;
+}
+
+#navi_div{
+   display:flex;
+   background:black;
+   color:white;
+   width:auto;
+   font-size:24px;
+   padding:25px;
+   margin:-15px;
+}
+
+#right_div{
+   background:#000;
+   display:flex;
+   margin-left: 60%;
+}
+
+#resources, #contact, #home{
+padding-right:100px;
+text-decoration:none;
+color:white;
+}
+
+#main_content{
+   margin-top: 50px;
+   display:flex;
+   justify-content:space-evenly;
+   font-size:24px;
+}
+
+.title{
+   font-size:38px;
+   text-align:center;
+}
+
+button{
+   width:100px;
+   height:50px;
+   font-size:20px;
+   margin-top:5px;
+}
+
+input{
+   width:200px;
+   height:25px;
+   font-size:24px;
+}
+
+#fifty, #thirty, #twenty, #price, #interest, #time, #ypayment, #mpayment{
+   margin-top:5px;
+}
